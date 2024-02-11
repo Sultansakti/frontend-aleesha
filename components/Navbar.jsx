@@ -5,6 +5,7 @@ import Link from 'next/link'
 import { MdOutlineShoppingBag } from 'react-icons/md'
 import { IoMdNotificationsOutline } from 'react-icons/io'
 
+
 export default function Navbar() {
   return (
     <div className="fixed w-full h-[150px] bg-primary z-10">
@@ -30,7 +31,7 @@ export default function Navbar() {
               <IoMdNotificationsOutline color="white" size={38} />
             </Link>
           </li>
-          <Link href="/" className="px-4 py-2 text-black bg-peach rounded-md">
+          <Link href="/login" className="px-4 py-2 text-black bg-peach rounded-md">
             Sign In
           </Link>
           <li></li>

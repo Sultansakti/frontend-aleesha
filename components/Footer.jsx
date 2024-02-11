@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaTwitter, FaInstagram, FaFacebook } from 'react-icons/fa';
+import Link from 'next/link';
 
 const Footer = () => {
   return (
@@ -17,12 +18,12 @@ const Footer = () => {
           <div className="text-center lg:text-right w-full lg:w-3/4 px-4">
             <div className="flex justify-center lg:justify-end items-center">
               <span className="hidden lg:inline-block text-white mr-4">Connect With Us :</span>
-              <a href="https://twitter.com">
+              <Link href="https://twitter.com">
                 <FaTwitter className="text-white mx-2" size={24} />
-              </a>
-              <a href="https://instagram.com">
+              </Link>
+              <Link href="https://instagram.com">
                 <FaInstagram className="text-white mx-2" size={24} />
-              </a>
+              </Link>
               <a href="https://facebook.com">
                 <FaFacebook className="text-white mx-2" size={24} />
               </a>
